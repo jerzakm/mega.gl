@@ -1,0 +1,21 @@
+{
+  "name": "@megagl/typegpu",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "lint": "echo 'lint placeholder'"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
